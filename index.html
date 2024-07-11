@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ShopNow</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav text-center me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-center" href="#">Shopnow offer upto 50% </a>
+                    </li>
+                    
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+            </nav>
+    </header>
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div class="carousel-inner" height="500px">
+            <div class="carousel-item active " height="500px">
+                <div class="container-fluid m-0 p-0" height="500px"><img  src="./assets/shirts-428600_1280.jpg" width="100%" height="880px" alt=""></div>
+                <div class="container" height="500px">
+                <div class="carousel-caption text-start" height="500px">
+                    <h1>Fashion Sale</h1>
+                    <h2>Mens Section</h2>
+                    <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+                    <p><a class="btn btn-lg btn-light" href="#">Buy now</a></p>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid m-0 p-0" height="500px"><img  src="./assets/shirts-428627_1280.jpg" width="100%" height="880px" alt=""></div>
+                <div class="container">
+                <div class="carousel-caption">
+                    <h1>Fashion Sale</h1>
+                    <h2>Womens Section</h2>
+                    <p>Some representative placeholder content for the second slide of the carousel.</p>
+                    <p><a class="btn btn-lg btn-dark" href="#">buy more</a></p>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid m-0 p-0" height="500px"><img  src="./assets/baby-clothes-5749670_640.jpg" width="100%" height="880px" alt=""></div>
+                <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>Fashion Sale</h1>
+                    <h2>Kids Section</h2>
+                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                    <p><a class="btn btn-lg btn-light" href="#">Browse</a></p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container-fluid">
+        <section>
+            <div class="row gx-0 d-block d-lg-flex flickity flickity-lg-none" data-flickity="{&quot;watchCSS&quot;: true}">
+                <div class="col-12 col-md-6 col-lg-4 d-flex flex-column bg-cover" >
+                    <div class="card bg-dark-5 bg-hover text-white text-center">
+                    <div class="card-body ">
+                        <img src="./assets/girl-2128284_1280.jpg" alt="" width="400px" height="350px">
+                    </div>
+                    <div class="card-body mt-auto ">
+                        <a class="btn btn-dark stretched-link" href="shop.html">
+                        Shop Women 
+                        </a>
+        
+                    </div>
+                    </div>
+                </div><div class="col-12 col-md-6 col-lg-4 d-flex flex-column bg-cover" style="background-image: url(&quot;assets/img/covers/cover-2.jpg&quot;);">
+                    <div class="card bg-dark-5 bg-hover text-white text-center" >
+                    <div class="card-body mt-auto mb-n11 ">
+                        <img src="./assets/t-shirt-2351761_1280.jpg" alt="" width="400px" height="350px">
+                    </div>
+                    <div class="card-body mt-auto">
+                        <a class="btn btn-dark stretched-link" href="shop.html">
+                        Shop Men <i class="fe fe-arrow-right ms-2"></i>
+                        </a>
+        
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4  d-flex flex-column bg-cover" style="background-image: url(&quot;assets/img/covers/cover-3.jpg&quot;);">
+                    <div class="card bg-dark-5 me-2 bg-hover text-white text-center" >
+                    <div class="card-body mt-auto mb-n11 ">
+                        <img src="./assets/child-4448370_640.jpg" alt="" width="400px" height="350px">
+                    </div>
+                    <div class="card-body mt-auto  ">
+                        <a class="btn btn-dark stretched-link" href="shop.html">
+                        Shop Kids <i class="fe fe-arrow-right ms-2"></i>
+                        </a>
+        
+                    </div>
+                </div>
+            </div></div>
+        </section>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
